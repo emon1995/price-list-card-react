@@ -84,7 +84,7 @@ const LineCharts = () => {
     },
   ];
   return (
-    <div>
+    <ResponsiveContainer width={"99%"} height={300}>
       <LineChart
         width={700}
         height={300}
@@ -105,7 +105,7 @@ const LineCharts = () => {
         <Legend />
         <CartesianGrid strokeDasharray="3 3" />
       </LineChart>
-    </div>
+    </ResponsiveContainer>
   );
 };
 

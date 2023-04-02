@@ -1,14 +1,13 @@
 import { useState } from "react";
-import "./App.css";
+// import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <div>
-      <h1 className="text-3xl text-red-300 font-bold underline">
-        Hello world!
-      </h1>
+      <Navbar></Navbar>
     </div>
   );
 }

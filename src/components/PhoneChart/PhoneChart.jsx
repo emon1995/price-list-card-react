@@ -34,7 +34,7 @@ const PhoneChart = () => {
       });
   }, []);
 
-  console.log(phones);
+  //   console.log(phones);
 
   return (
     <div className="md:mx-12 mx-4 my-12">

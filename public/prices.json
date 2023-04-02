@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "name": "Basic Membership",
+      "price": "$50",
+      "features": ["Cardio equipment", "Weight machines", "Free weights"]
+    },
+    {
+      "id": 2,
+      "name": "Premium Membership",
+      "price": "$80",
+      "features": ["Indoor pool", "Group classes", "Personal training"]
+    },
+    {
+      "id": 3,
+      "name": "Corporate Membership",
+      "price": "$100",
+      "features": ["Sauna", "Steam room", "Towel service"]
+    }
+  ]

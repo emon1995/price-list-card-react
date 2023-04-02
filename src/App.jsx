@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Dashboard from "./components/Dashboard/Dashboard";
 // import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import PriceList from "./components/PriceList/PriceList";
@@ -10,6 +11,7 @@ function App() {
     <div>
       <Navbar></Navbar>
       <PriceList></PriceList>
+      <Dashboard></Dashboard>
     </div>
   );
 }
